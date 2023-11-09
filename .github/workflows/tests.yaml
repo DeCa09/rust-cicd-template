@@ -17,3 +17,5 @@ jobs:
       run: cargo fmt --check
     - name: Code Compilation Check
       run: cargo check
+    - name: Linting
+      run: cargo clippy
