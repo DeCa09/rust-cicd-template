@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-
+    - name: Code Formatting Check
+      run: cargo fmt --check
     - name: Code Compilation Check
-      run: |
-        cargo check
+      run: cargo check
