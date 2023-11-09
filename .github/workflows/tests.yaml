@@ -16,6 +16,4 @@ jobs:
 
     - name: Code Compilation Check
       run: |
-        pwd
-        ls
         cargo check
